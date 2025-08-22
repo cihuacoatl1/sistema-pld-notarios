@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "notario",
+      "password": "password",
+      "name": "Juan Pérez",
+      "notaryId": "12345"
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "password": "admin123",
+      "name": "María García",
+      "notaryId": "67890"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "type": "fisica",
+      "nombre": "Carlos",
+      "apellidoPaterno": "Rodríguez",
+      "apellidoMaterno": "López",
+      "nombreCompleto": "Carlos Rodríguez López",
+      "rfc": "CARR800101ABC",
+      "curp": "CARR800101HDFLPC09",
+      "fechaNacimiento": "1980-01-01",
+      "nacionalidad": "Mexicana",
+      "ocupacion": "Ingeniero",
+      "telefono": "5551234567",
+      "email": "carlos.rodriguez@email.com",
+      "domicilio": "Av. Insurgentes 123, CDMX",
+      "ppe": false,
+      "documentos": [
+        {
+          "id": 1,
+          "nombre": "INE_frontal.jpg",
+          "tipo": "Identificación",
+          "fecha": "2023-05-10"
+        },
+        {
+          "id": 2,
+          "nombre": "INE_reverso.jpg",
+          "tipo": "Identificación",
+          "fecha": "2023-05-10"
+        },
+        {
+          "id": 3,
+          "nombre": "Constancia_Situacion_Fiscal.pdf",
+          "tipo": "Constancia Fiscal",
+          "fecha": "2023-06-15"
+        }
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "id": 1,
+      "date": "2025-08-15",
+      "type": "compraventa",
+      "amount": 1250000,
+      "clientId": 1,
+      "description": "Compraventa de casa habitación",
+      "requiresNotice": true,
+      "ppe": false,
+      "submitted": false,
+      "numeroEscritura": "12345",
+      "partesInvolucradas": "Carlos Rodríguez López y María González Fernández"
+    }
+  ]
+}
